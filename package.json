@@ -4,12 +4,11 @@
   "description": "Sample Visual regression tests in WebDriverIO",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
   },
   "author": "AshwinG",
   "license": "ISC",
   "devDependencies": {
-    "@wdio/browserstack-service": "^5.8.0",
     "chai": "^4.2.0",
     "node-notifier": "^5.4.0",
     "wdio-browserstack-service": "^0.1.18",
