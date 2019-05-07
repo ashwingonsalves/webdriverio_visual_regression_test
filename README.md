@@ -5,8 +5,8 @@
 * Install dependencies `npm install`
 * You can setup environment variables `wdio.conf.js` file with your [BrowserStack Username and Access Key](https://www.browserstack.com/accounts/settings)
 
-user: process.env.BROWSERSTACK_DEMO_USER,
-key: process.env.BROWSERSTACK_DEMO_KEY,
+- user: process.env.BROWSERSTACK_DEMO_USER
+- key: process.env.BROWSERSTACK_DEMO_KEY
 
 ## Running your tests
 run `npm test`
